@@ -20,6 +20,22 @@
     "Public.users_UpdateQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
+    },
+    "Users_DeleteQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Users_FindQuery": {
+      "unpublishedUserSetOnLoad": true,
+      "publishedUserSetOnLoad": true
+    },
+    "Users_InsertQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Users_UpdateQuery": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
     }
   },
   "editModeTheme": {
@@ -34,6 +50,14 @@
     "isSystemTheme": true,
     "deleted": false
   },
-  "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {}
+  "publishedLayoutmongoEscapedWidgets": {
+    "Users": [
+      "data_table"
+    ]
+  },
+  "unpublishedLayoutmongoEscapedWidgets": {
+    "Users": [
+      "data_table"
+    ]
+  }
 }
